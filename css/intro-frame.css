@@ -2,7 +2,6 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: sans-serif;
-  overflow: hidden;
 }
 
 /* wrapper for intro section */
@@ -66,6 +65,11 @@ body {
   text-decoration: none;
 }
 
+.contact-me:hover{
+  color: #b9d642;
+  border: 1px solid #b9d642;
+}
+
 /* right-bottom profile links */
 .profile-links {
   position: absolute;
@@ -86,7 +90,7 @@ body {
 }
 .link-wrapper a:hover {
   font-size: 120%;
-  color: #ffffff;
+  color: #b9d642;
   transition: 0.2s;
 }
 
@@ -107,11 +111,11 @@ body {
 }
 .scroll p {
   font-size: 20px;
-  animation: pulse 3s infinite;
+  animation: pulse 1.8s infinite;
 }
 .scroll i {
   font-size: 150%;
-  animation: bounce 3s infinite;
+  animation: bounce 1.8s infinite;
 }
 @keyframes bounce {
   0% {
@@ -129,7 +133,7 @@ body {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1);
+    transform: scaleX(1.03);
   }
   100% {
     transform: scale(1);
