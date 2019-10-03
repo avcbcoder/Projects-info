@@ -6,3 +6,9 @@
 .demo-gif-wrapper:hover{
     opacity:0.9;
 }
+
+@media only screen and (max-width: 500px) {
+    .demo-gif-wrapper img{
+        height: 200px;
+     }   
+}

@@ -65,7 +65,7 @@ body {
   text-decoration: none;
 }
 
-.contact-me:hover{
+.contact-me:hover, .contact-me:active, .contact-me:focus{
   color: #b9d642;
   border: 1px solid #b9d642;
 }

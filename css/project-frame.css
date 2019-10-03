@@ -46,7 +46,7 @@
     margin-right: 1px;
     margin-bottom: 3px;
     background-color: rgba(255, 255, 255, 0.2);
-    color: #FFF;
+    color: #e8dcdf;
     border-radius: 0.25em;
     padding: .2em .6em .3em .3em;
     line-height: 1;
@@ -120,7 +120,7 @@
 
 .social-container a {
     cursor: pointer;
-    color: #ffffff;
+    color: #e8dcdf;
 }
 
 .social-container a:hover {
