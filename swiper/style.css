@@ -24,6 +24,11 @@ body {
     justify-content: center;
 }
 
+.swiper-slide-big {
+    width: 800px;
+    height: 450px;
+}
+
 .swiper-slide img {
     max-width: 100%;
     max-height: 100%;
